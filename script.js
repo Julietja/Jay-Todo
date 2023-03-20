@@ -20,7 +20,7 @@ const addNewTodo = () => {
 
   //check if textbox is empty
   if (todoText === "") {
-    alert("Please enter a task before adding");
+    alert("You can't add an empty task!");
     return;
   }
 
